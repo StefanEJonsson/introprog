@@ -3,27 +3,286 @@
 
 \ExerciseSolution{\ExeWeekTWO}
 
-
+%Uppgift 1
 \Task 
 
-\Subtask \code{42}
+\Subtask värde: \code{Range(1,2,3,4,5,6,7,8,9)}, typ: \code{scala.collection.immutable.Range}
 
-\Subtask Lösningstext.
+\Subtask värde: \code{Range(1,2,3,4,5,6,7,8,9,10)}, typ: \code{scala.collection.immutable.Range}
 
+\Subtask värde: \code{Range(0,5,10,15,20,25,30,35,40,45)}, typ: \code{scala.collection.immutable.Range}
+
+\Subtask värde: \code{10}, typ: \code{Int}
+
+\Subtask värde: \code{Range(0,5,10,15,20,25,30,35,40,45,50)}, typ: \code{scala.collection.immutable.Range}
+
+\Subtask värde: \code{11}, typ: \code{Int}
+
+\Subtask värde: \code{Range(0,1,2,3,4,5,6,7,8,9)}, typ: \code{scala.collection.immutable.Range}
+
+\Subtask värde: \code{Range(0,1,2,3,4,5,6,7,8,9)}, typ: \code{scala.collection.immutable.Range}
+
+\Subtask värde: \code{Range(0,1,2,3,4,5,6,7,8,9)}, typ: \code{scala.collection.immutable.Range}
+
+\Subtask värde: \code{Range(0,1,2,3,4,5,6,7,8,9,10)}, typ: \code{scala.collection.immutable.Range.Inclusive}
+
+\Subtask värde: \code{Range(0,1,2,3,4,5,6,7,8,9,10)}, typ: \code{scala.collection.immutable.Range.Inclusive}
+
+\Subtask värde: \code{Range(0,5,10,15,20,25,30,35,40,45)}, typ: \code{scala.collection.immutable.Range}
+
+\Subtask värde: \code{Range(0,5,10,15,20,25,30,35,40,45,50)}, typ: \code{scala.collection.immutable.Range}
+
+\Subtask värde: \code{11}, typ: \code{Int}
+
+\Subtask värde: \code{500500}, typ: \code{Int}
+
+
+%Uppgift 2
 \Task 
 
+\Subtask Ett objekt av typen \code{Array[String]} skapas med värdet \code{Array(hej, på, dej, !} och med namnet \code{xs}.
 
+\Subtask Returnerar en sträng med värdet \code{hej}.
 
+\Subtask Returnerar en sträng med värdet \code{!}.
+
+\Subtask Ett exception genereras. Skriver ut \code{java.lang.ArrayIndexOutOfBoundsException: 4}.
+
+\Subtask Returnerar en sträng med värdet \code{på dej}.
+
+\Subtask Returnerar en sträng med värdet \code{hejpådej!}.
+
+\Subtask Returnerar en sträng med värdet \code{hej på dej !}.
+
+\Subtask Returnerar en sträng med värdet \code{(hej,på,dej,!)}.
+
+\Subtask Returnerar en sträng med värdet \code{Array(hej,på,dej,!)}.
+
+\Subtask Ett fel uppstår av typen \code{type mismatch}. Konsollen talar om för oss vad den fick, dvs värdet \code{42} av typen \code{Int}. Den talar även om för oss vad den ville ha, dvs något värde av typen \code{String}. Till sist skriver den ut vår kodrad och pekar ut felet.
+
+\Subtask Det första elementet i \code{xs} ändras till värdet \code{42}. Därefter skrivs det första värdet i \code{xs} ut.
+
+\Subtask Ett objekt av typen \code{Array[Int]} skapas med värdet \code{Array(42, 7, 3, 8} och med namnet \code{ys}.
+
+\Subtask Returnerar summan av elementen i \code{ys}. Resultatet är \code{60}.
+
+\Subtask Returnerar det minsta värdet i \code{ys}. Resultatet är \code{3}.
+
+\Subtask Returnerar det största värdet i \code{ys}. Resultatet Ã¤r \code{42}.
+
+\Subtask Ett nytt värde av typen \code{Array[Int]} skapas med \code{10} stycken element, alla med värdet \code{42}.
+
+\Subtask Returnerar summan av elementen i \code{zs}. Resultatet blir 420 (42 multiplicerat med 10).
+
+\Subtask \code{r} tar upp 12 bytes. \code{a} tar upp ca 4 miljarder bytes.
+
+%Uppgift 3
 \Task 
 
-\Subtask \code{42}
+\Subtask Ett objekt av typen \code{scala.collection.immutable.Vector[String]} initieras med värdet \code{Vector(hej, på dej, !)}.
 
-\Subtask Lösningstext.
+\Subtask Returnerar det nollte elementet i \code{words}, dvs strängen \code{hej}.
 
+\Subtask Returnerar det tredje elementet i \code{words}, dvs strängen \code{!}.
 
+\Subtask Omvandlar vektorn till en Sträng.
 
+\Subtask Samma som ovan, fast den här gången används mellanrum för att seperera elementen.
+
+\Subtask Samma som ovan, fast den här gången sepereras elementen av kommatecken istället för mellanrum och dessutom börjar och slutar den resulterande strängen med parenteser.
+
+\Subtask Samma som ovan, fast med ordet \code{Ord} tillagt i början av den resulterande strängen.
+
+\Subtask Ett fel uppstår. Typen \code{Vector} är immutable. Dess element kan alltså inte bytas ut.
+
+\Subtask En ny \code{Vector[Int]} skapas med värdet \code{Vector(42, 7, 3, 8)}. 
+
+\Subtask Returnerar summan av vektorn \code{numbers}.
+
+\Subtask Returnerar vektorns minsta element.
+
+\Subtask Returnerar vektorns största element. 
+
+\Subtask En ny vektor skapas innehållandes tiotusen 42or.
+
+\Subtask Returnerar summan av vektorns element.
+
+\Subtask Byta ut element.
+
+%Uppgift 4
 \Task 
 
-\Subtask \code{42}
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(1, 2, 3, 4, 5, 6, 7, 8, 9)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(1, 2, 3, 4, 5, 6, 7, 8, 9)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(2, 3, 4, 5, 6, 7, 8, 9, 10)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(2, 3, 4, 5, 6, 7, 8, 9, 10, 11)}
+
+\Subtask typ: \code{Int}, värde: \code{Vector(65)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(0.0, 0.7071067811865475, 1.0, 0.7071067811865476, 1.2246467991473532E-16, -0.7071067811865475, -1.0, -0.7071067811865477)}
+
+%Uppgift 5
+\Task 
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(2, 4, 6, 8, 10, 12, 14, 16, 18, 20)}
+
+\Subtask typ: \code{scala.collection.immutable.IndexedSeq[Int]}, värde: \code{Vector(2, 4, 6, 8, 10, 12, 14, 16, 18, 20)}
+
+\Subtask typ: \code{scala.collection.immutable.Vector[Int]}, värde: En vector av tiotusen 85or (85 = 42 + 43).
+
+%Uppgift 6
+\Task 
+
+\Subtask En \code{Range} skapas och dess element skrivs ut ett och ett.
+
+\Subtask Samma sak händer.
+
+\Subtask De tio första tio första jämna talen (noll ej inräknat) skrivs ut med ett "hej" framför.
+
+\Subtask Talen 1 till 10 skrivs ut.
+
+\Subtask Tiotusen slumptal mellan 0 och 1 genereras. Varje gång ett tal är större än 0.99 kommer det ett pling.
+
+%Uppgift 7
+\Task 
+
+\Subtask Pseudokoden ska se ut ungefär såhär:
+
+Skapa heltalsvariabel temp. 
+Flytta värdet från x till temp. 
+Flytta värdet från y till x. 
+Flytta värdet från temp till y.
+
+\Subtask
+\begin{REPL}
+scala> var (x, y) = (42, 43)
+x: Int = 42
+y: Int = 43
+scala> var temp = x; x = y; y = temp;
+temp: Int = 42
+x: Int = 43
+y: Int = 42
+scala> println("x är " + x + ", y är " + y)
+x är 43, y är 42
+end{REPL}
+
+%Uppgift 8
+\Task 
+
+\Subtask Skriver ut "hej skript".
+
+\Subtask 
+
+\Subtask Lägg till raden:
+\code{println((2 to 1001).sum)} 
+eller motsvarande.
+
+\Subtask 
+
+\Subtask 
+
+%Uppgift 9
+\Task 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+%Uppgift 10
+\Task 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+%Uppgift 11
+\Task 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+%Uppgift 12
+\Task 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+%Uppgift 13
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+%Uppgift 14
+\Task 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+\Subtask 
+
+%Uppgift 15
+\Task 
+
+\Subtask 
+
+\Subtask 
+
+%Uppgift 16
+\Task 
+
+\Subtask 
+
+\Subtask 
 
 \Subtask Lösningstext.
